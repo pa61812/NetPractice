@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@*@model NetCorePractice.Models.Member*@
+@model IEnumerable<NetCorePractice.Models.Member>
+    <table class="table">
+        <tr>
+
+            <td>帳號</td>
+            <td>密碼</td>
+            <td>人名</td>
+            <td>手機</td>
+            <td>電話</td>
+            <td>性別</td>
+            <td>生日</td>
+            <td> </td>
+        </tr>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                @Html.Partial("_PartialAllUser", item);
+            }
+        </tbody>
+    </table>

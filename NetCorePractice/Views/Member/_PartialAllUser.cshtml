@@ -1,0 +1,30 @@
+﻿@using NetCorePractice.Models
+@model NetCorePractice.Models.Member
+
+<tr>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Account)
+    </td>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Password)
+    </td>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Phone)
+    </td>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Tel)
+    </td>
+    <td>
+        @Html.DisplayFor(modelModel => Model.Gender)
+    </td>
+    <td>
+        @Model.Birthday.Value.Year/@Model.Birthday.Value.Month/@Model.Birthday.Value.Day
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { key = Model.Account.ToString() }) |
+        @Html.ActionLink("Delete", "Delete", new { key = Model.Account.ToString() })
+    </td>
+</tr>

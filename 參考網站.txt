@@ -1,0 +1,10 @@
+https://dotblogs.com.tw/shadow/2018/02/02/030427
+
+http://ikevin.tw/2019/08/04/asp-net-core-3-0-%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-database-first/
+
+
+dotnet tool install --global dotnet-ef
+
+https://docs.microsoft.com/zh-tw/ef/core/miscellaneous/cli/dotnet
+
+https://blog.johnwu.cc/article/ironman-day24-asp-net-core-entity-framework-core.html

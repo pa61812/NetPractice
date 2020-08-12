@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@using NetCorePractice.Models
+@model NetCorePractice.Models.Demo
+
+
+<h2>DemoConfig</h2>
+
+
+    <p>Name: @Html.DisplayFor(modelModel => Model.Name) </p>
+
+    <p>Phone: @Html.DisplayFor(modelModel => Model.Phone) </p>
+
+    <p>Tel: @Html.DisplayFor(modelModel => Model.Tel) </p>
+
+    <p>Address: @Html.DisplayFor(modelModel => Model.Address) </p>
+
+    <p>Email: @Html.DisplayFor(modelModel => Model.Email) </p>
+
+    <p>Age: @Html.DisplayFor(modelModel => Model.Age) </p>
+
+    <p>IsActive: @Html.DisplayFor(modelModel => Model.IsActive) </p>
+
+
+
+<div>
+    <p> @Html.DisplayFor(modelModel => Model.Google) </p>
+</div>
+<div>
+    <p> @Html.DisplayFor(modelModel => Model.ConfigValue) </p>
+</div>
+
+
+
